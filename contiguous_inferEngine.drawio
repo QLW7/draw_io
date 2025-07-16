@@ -91,13 +91,13 @@
         <mxCell id="NrlZSSO5zqKxNCamtYSX-74" value="args0, args1 ..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;container=0;" vertex="1" parent="NrlZSSO5zqKxNCamtYSX-75">
           <mxGeometry x="9.5" y="51.5" width="101" height="23.5" as="geometry" />
         </mxCell>
-        <mxCell id="NrlZSSO5zqKxNCamtYSX-79" value="" style="group;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" connectable="0" parent="1">
+        <mxCell id="NrlZSSO5zqKxNCamtYSX-79" value="" style="group;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="451" y="-177" width="128" height="276" as="geometry" />
         </mxCell>
         <mxCell id="NrlZSSO5zqKxNCamtYSX-80" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;container=0;" vertex="1" parent="NrlZSSO5zqKxNCamtYSX-79">
           <mxGeometry width="128" height="276" as="geometry" />
         </mxCell>
-        <mxCell id="NrlZSSO5zqKxNCamtYSX-81" value="SplitInfo 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="NrlZSSO5zqKxNCamtYSX-79">
+        <mxCell id="NrlZSSO5zqKxNCamtYSX-81" value="SplitInfo 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;container=0;" vertex="1" parent="NrlZSSO5zqKxNCamtYSX-79">
           <mxGeometry x="16.5" y="43.5" width="101" height="23.5" as="geometry" />
         </mxCell>
         <mxCell id="NrlZSSO5zqKxNCamtYSX-82" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;dst&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="NrlZSSO5zqKxNCamtYSX-79">
@@ -126,6 +126,9 @@
         </mxCell>
         <mxCell id="NrlZSSO5zqKxNCamtYSX-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NrlZSSO5zqKxNCamtYSX-37" target="NrlZSSO5zqKxNCamtYSX-88">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NrlZSSO5zqKxNCamtYSX-92" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;thnn::view-like ( src, dst, args0, args1, ... )&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-137" y="-297" width="592" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
