@@ -1,0 +1,247 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.0">
+  <diagram name="第 1 页" id="nwu3pGuDy2IOJjoHYiaW">
+    <mxGraphModel dx="3453" dy="1916" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=21;" value="接收进程 (Consumer)" vertex="1">
+          <mxGeometry height="686" width="772" x="366" y="897" as="geometry" />
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=21;" value="发送进程 (Producer)" vertex="1">
+          <mxGeometry height="814" width="1429" x="13" y="9" as="geometry" />
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=21;" value="共享资源 (OS/Hardware)" vertex="1">
+          <mxGeometry height="133" width="1143" x="206" y="1657.5" as="geometry" />
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-4" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fontSize=21;" value="共享内存 (RefCounters)" vertex="1">
+          <mxGeometry height="83" width="182" x="323" y="1682" as="geometry" />
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-5" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fontSize=21;" value="die dram" vertex="1">
+          <mxGeometry height="79" width="145" x="1184" y="1684" as="geometry" />
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=21;" value="驱动状态 (Driver State)" vertex="1">
+          <mxGeometry height="54" width="226" x="908" y="1697" as="geometry" />
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-7" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=21;" value="Thrive Tensor" vertex="1">
+          <mxGeometry height="54" width="156" x="244" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-8" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=21;" value="Storage" vertex="1">
+          <mxGeometry height="54" width="114" x="265" y="149" as="geometry" />
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=21;" value="Thrive Allocator" vertex="1">
+          <mxGeometry height="54" width="174" x="1233" y="277" as="geometry" />
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-10" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=21;" value="Thrive Driver" vertex="1">
+          <mxGeometry height="54" width="154" x="1243" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-11" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=21;" value="RefCounter Manager" vertex="1">
+          <mxGeometry height="54" width="205" x="335" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-12" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=21;" value="Thrive Event" vertex="1">
+          <mxGeometry height="54" width="150" x="107" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-13" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=21;" value="Python Pickler" vertex="1">
+          <mxGeometry height="54" width="162" x="454" y="533" as="geometry" />
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-14" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fontSize=21;" value="IPC Queue / Pipe" vertex="1">
+          <mxGeometry height="137" width="137" x="467" y="661" as="geometry" />
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-15" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=21;" value="Python Unpickler" vertex="1">
+          <mxGeometry height="54" width="182" x="444" y="922" as="geometry" />
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-16" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=21;" value="Storage Rebuilder" vertex="1">
+          <mxGeometry height="54" width="187" x="442" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-17" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=21;" value="本地缓存?" vertex="1">
+          <mxGeometry height="124" width="124" x="473" y="1178" as="geometry" />
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-18" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=21;" value="New Storage" vertex="1">
+          <mxGeometry height="54" width="150" x="737" y="1376" as="geometry" />
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-19" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=21;" value="Existing Storage" vertex="1">
+          <mxGeometry height="54" width="174" x="418" y="1376" as="geometry" />
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-20" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=21;" value="Thrive Driver" vertex="1">
+          <mxGeometry height="54" width="154" x="878" y="1504" as="geometry" />
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-21" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=21;" value="Rebuilt Event" vertex="1">
+          <mxGeometry height="54" width="156" x="672" y="1504" as="geometry" />
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-22" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=21;" value="RefCounter Manager" vertex="1">
+          <mxGeometry height="54" width="205" x="401" y="1504" as="geometry" />
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-23" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=21;" value="Reconstructed Tensor" vertex="1">
+          <mxGeometry height="54" width="213" x="865" y="1213" as="geometry" />
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-24" edge="1" parent="1" source="tPArfTub8G0aVFqAZIGZ-7" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=21;" target="tPArfTub8G0aVFqAZIGZ-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-25" edge="1" parent="1" source="tPArfTub8G0aVFqAZIGZ-8" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.57;entryX=0.5;entryY=0;rounded=0;fontSize=21;" target="tPArfTub8G0aVFqAZIGZ-9" value="1. 获取基址">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1320" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-26" edge="1" parent="1" source="tPArfTub8G0aVFqAZIGZ-9" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=21;" target="tPArfTub8G0aVFqAZIGZ-10" value="2. 申请 IPC Handle">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-27" edge="1" parent="1" source="tPArfTub8G0aVFqAZIGZ-8" style="curved=1;startArrow=none;endArrow=block;exitX=0.93;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=21;" target="tPArfTub8G0aVFqAZIGZ-11" value="3. 增加引用计数">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="438" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-28" edge="1" parent="1" source="tPArfTub8G0aVFqAZIGZ-8" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.98;entryX=0.5;entryY=0;rounded=0;fontSize=21;" target="tPArfTub8G0aVFqAZIGZ-12" value="4. 记录 Event">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="182" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-29" edge="1" parent="1" source="tPArfTub8G0aVFqAZIGZ-8" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0;exitY=0.77;entryX=0;entryY=0.29;rounded=0;fontSize=21;" target="tPArfTub8G0aVFqAZIGZ-13" value="提取信息">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="72" y="240" />
+              <mxPoint x="72" y="496" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-30" edge="1" parent="1" source="tPArfTub8G0aVFqAZIGZ-11" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.7;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=21;" target="tPArfTub8G0aVFqAZIGZ-13" value="引用句柄+偏移">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="496" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-31" edge="1" parent="1" source="tPArfTub8G0aVFqAZIGZ-12" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.23;rounded=0;fontSize=21;" target="tPArfTub8G0aVFqAZIGZ-13" value="Event句柄">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="182" y="496" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-32" edge="1" parent="1" source="tPArfTub8G0aVFqAZIGZ-10" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.67;exitY=1;entryX=1;entryY=0.39;rounded=0;fontSize=21;" target="tPArfTub8G0aVFqAZIGZ-13" value="内存句柄">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1381" y="496" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-33" edge="1" parent="1" source="tPArfTub8G0aVFqAZIGZ-13" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=21;" target="tPArfTub8G0aVFqAZIGZ-14" value="5. 序列化元数据">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-34" edge="1" parent="1" source="tPArfTub8G0aVFqAZIGZ-14" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=21;" target="tPArfTub8G0aVFqAZIGZ-15" value="6. 反序列化元数据">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-35" edge="1" parent="1" source="tPArfTub8G0aVFqAZIGZ-15" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=21;" target="tPArfTub8G0aVFqAZIGZ-16" value="7. 重建信息">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-36" edge="1" parent="1" source="tPArfTub8G0aVFqAZIGZ-16" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=21;" target="tPArfTub8G0aVFqAZIGZ-17" value="8. 检查缓存">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-37" edge="1" parent="1" source="tPArfTub8G0aVFqAZIGZ-17" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.97;entryX=0.02;entryY=0;rounded=0;fontSize=21;" target="tPArfTub8G0aVFqAZIGZ-18" value="未命中">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="641" y="1339" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-38" edge="1" parent="1" source="tPArfTub8G0aVFqAZIGZ-17" style="curved=1;startArrow=none;endArrow=block;exitX=0.35;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=21;" target="tPArfTub8G0aVFqAZIGZ-19" value="命中">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="505" y="1339" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-39" edge="1" parent="1" source="tPArfTub8G0aVFqAZIGZ-18" style="curved=1;startArrow=none;endArrow=block;exitX=0.9;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=21;" target="tPArfTub8G0aVFqAZIGZ-20" value="9. 打开 IPC Handle">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="955" y="1467" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-40" edge="1" parent="1" source="tPArfTub8G0aVFqAZIGZ-18" style="curved=1;startArrow=none;endArrow=block;exitX=0.32;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=21;" target="tPArfTub8G0aVFqAZIGZ-21" value="10. 同步 Event">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="1467" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-41" edge="1" parent="1" source="tPArfTub8G0aVFqAZIGZ-18" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.78;entryX=0.5;entryY=0;rounded=0;fontSize=21;" target="tPArfTub8G0aVFqAZIGZ-22" value="11. 绑定析构器">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="504" y="1467" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-42" edge="1" parent="1" source="tPArfTub8G0aVFqAZIGZ-23" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.95;entryY=0;rounded=0;fontSize=21;" target="tPArfTub8G0aVFqAZIGZ-18" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="971" y="1339" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-43" edge="1" parent="1" source="tPArfTub8G0aVFqAZIGZ-11" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.27;exitY=1;entryX=0.19;entryY=0;rounded=0;fontSize=21;" target="tPArfTub8G0aVFqAZIGZ-4" value="mmap">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="324" y="496" />
+              <mxPoint x="324" y="1657" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-44" edge="1" parent="1" source="tPArfTub8G0aVFqAZIGZ-22" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.81;entryY=0;rounded=0;fontSize=21;" target="tPArfTub8G0aVFqAZIGZ-4" value="mmap">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="504" y="1657" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-45" edge="1" parent="1" source="tPArfTub8G0aVFqAZIGZ-10" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.76;entryY=0;rounded=0;fontSize=21;" target="tPArfTub8G0aVFqAZIGZ-5" value="Alloc/Export">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1320" y="1657" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-46" edge="1" parent="1" source="tPArfTub8G0aVFqAZIGZ-20" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.9;exitY=1;entryX=0;entryY=0.17;rounded=0;fontSize=21;" target="tPArfTub8G0aVFqAZIGZ-5" value="Map/Import">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1073" y="1583" />
+              <mxPoint x="1073" y="1657" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-47" edge="1" parent="1" source="tPArfTub8G0aVFqAZIGZ-10" style="curved=1;startArrow=block;endArrow=block;exitX=0.09;exitY=1;entryX=0.77;entryY=-0.01;rounded=0;fontSize=21;" target="tPArfTub8G0aVFqAZIGZ-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1170" y="496" />
+              <mxPoint x="1170" y="1657" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPArfTub8G0aVFqAZIGZ-48" edge="1" parent="1" source="tPArfTub8G0aVFqAZIGZ-20" style="curved=1;startArrow=block;endArrow=block;exitX=0;exitY=0.84;entryX=0;entryY=-0.01;rounded=0;fontSize=21;" target="tPArfTub8G0aVFqAZIGZ-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="742" y="1583" />
+              <mxPoint x="742" y="1657" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
